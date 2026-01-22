@@ -22,7 +22,7 @@ const Header = () => {
                         <div className="bg-brand-navy p-2 rounded-lg">
                             <Users className="w-6 h-6 text-brand-gold" />
                         </div>
-                        <span className="font-serif font-bold text-xl text-brand-navy tracking-tight">DMM Platform</span>
+                        <span className="font-serif font-bold text-xl text-brand-navy tracking-tight">J-DMM Platform</span>
                     </Link>
 
                     {/* Desktop Navigation */}
@@ -32,8 +32,8 @@ const Header = () => {
                                 key={item.name}
                                 to={item.path}
                                 className={`flex items-center px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${location.pathname === item.path
-                                        ? 'text-brand-navy bg-brand-light font-bold'
-                                        : 'text-brand-slate hover:text-brand-navy hover:bg-gray-50'
+                                    ? 'text-brand-navy bg-brand-light font-bold'
+                                    : 'text-brand-slate hover:text-brand-navy hover:bg-gray-50'
                                     }`}
                             >
                                 {item.icon}

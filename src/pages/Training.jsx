@@ -5,8 +5,8 @@ import { PlayCircle, Clock, Award } from 'lucide-react';
 const courses = [
     {
         id: 1,
-        title: "Foundations of DMM",
-        description: "Understand the core biblical principles behind the Disciple Making Movement. Shift from knowledge to obedience.",
+        title: "Foundations of J-DMM",
+        description: "Understand the core biblical principles behind the Jesus Disciple Making Movement. Shift from knowledge to obedience.",
         duration: "45 mins",
         modules: 5,
         level: "Beginner"
@@ -14,7 +14,7 @@ const courses = [
     {
         id: 2,
         title: "Discovery Bible Study (DBS)",
-        description: "Master the heart of DMM. Learn how to facilitate groups that self-correct and reproduce.",
+        description: "Master the heart of J-DMM. Learn how to facilitate groups that self-correct and reproduce.",
         duration: "60 mins",
         modules: 3,
         level: "Intermediate"
@@ -58,8 +58,8 @@ const Training = () => {
                     >
                         <div className="flex justify-between items-start mb-4">
                             <span className={`px-3 py-1 rounded-full text-xs font-semibold ${course.level === 'Beginner' ? 'bg-green-100 text-green-700' :
-                                    course.level === 'Intermediate' ? 'bg-blue-100 text-blue-700' :
-                                        'bg-purple-100 text-purple-700'
+                                course.level === 'Intermediate' ? 'bg-blue-100 text-blue-700' :
+                                    'bg-purple-100 text-purple-700'
                                 }`}>
                                 {course.level}
                             </span>

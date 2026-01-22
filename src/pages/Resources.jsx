@@ -5,7 +5,7 @@ const resources = [
     {
         category: "Guides & Manuals",
         items: [
-            { type: 'pdf', title: "DMM Field Guide 2024", size: "2.4 MB" },
+            { type: 'pdf', title: "J-DMM Field Guide 2024", size: "2.4 MB" },
             { type: 'pdf', title: "Discovery Bible Study Bookmark", size: "0.5 MB" },
             { type: 'pdf', title: "Person of Peace Characteristics", size: "1.1 MB" },
         ]
@@ -20,7 +20,7 @@ const resources = [
     {
         category: "Media",
         items: [
-            { type: 'video', title: "Introduction to DMM (Video)", size: "15 mins" },
+            { type: 'video', title: "Introduction to J-DMM (Video)", size: "15 mins" },
             { type: 'video', title: "Testimony: A Movement in Memphis", size: "8 mins" },
         ]
     }
