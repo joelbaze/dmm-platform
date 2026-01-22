@@ -1,70 +1,117 @@
 export const trainingModules = [
     {
         id: 1,
-        title: "Foundations of J-DMM",
+        title: "Foundations & History",
         level: "Beginner",
         duration: "45 mins",
-        description: "The core paradigm shifts required to move from a traditional church model to a Disciple Making Movement.",
+        description: "The origin story of the movement and the key definitions that separate DMM from traditional models.",
         content: [
             {
-                title: "What is J-DMM?",
-                body: `The Jesus Disciple Making Movement (J-DMM) is a rapid multiplication of disciples making disciples. It is not a curriculum, but a return to the strategies Jesus used (Luke 10). It focuses on **obedience** rather than just knowledge.`
+                title: "The Origin Story",
+                body: `**David Watson & The Bhojpuri Breakthrough:** In the 1990s, missionary David Watson struggled in India using traditional methods. He realized his training was a "filter" preventing him from seeing the simple, organic methods Jesus used. He shifted to a "New Wineskin" model.
+
+**The Results:** This shift led to a massive movement. In one instance, a movement grew to over 80,000 churches and millions of baptized believers.
+
+**The Goal:** To finish the Great Commission (Matthew 24:14) by engaging every unreached people group with a movement strategy.`
             },
             {
-                title: "Key Paradigm Shifts",
-                body: `1. **From Knowledge to Obedience:** We don't just learn commands; we obey them.
-2. **From Professional to Ordinary:** Ordinary people are empowered to do the work of ministry.
-3. **From Addition to Multiplication:** We aim for generational growth (2 Timothy 2:2).
-4. **From Coming to Going:** Instead of inviting people to church, we go to where they are.`
+                title: "Key Definitions",
+                body: `**DMM (Disciple Making Movement):** A rapid and exponential increase in indigenous disciples making disciples. It is characterized by obedience-based discipleship rather than knowledge-based teaching.
+
+**CPM (Church Planting Movement):** Often used interchangeably with DMM, but specifically defined as a rapid multiplication of indigenous churches planting churches through at least four generations.
+
+**The Spiritual Firewall:** A filter question to test traditions: "Where do I see this practice in the practices of Jesus or the New Testament church?" If it is not found there, it is discarded to ensure reproducibility.`
             }
         ]
     },
     {
         id: 2,
-        title: "Discovery Bible Study (DBS)",
+        title: "The Paradigm Shift",
         level: "Intermediate",
         duration: "60 mins",
-        description: "The engine of the movement. A simple, reproducible group method to discover God's will and obey it.",
+        description: "Understanding the critical shifts in thinking: Elephants vs Rabbits, Extraction vs Inclusion, and Obedience vs Knowledge.",
         content: [
             {
-                title: "The 3-Thirds Process",
-                body: `A DBS meeting is divided into three parts:
-**1. Look Back (Past):** Care for each other, worship, and accountability (Did you obey last week?).
-**2. Look Up (Present):** Read the scripture, re-tell it, and study it.
-**3. Look Forward (Future):** Set obedience goals for next week.`
+                title: "Elephants vs. Rabbits",
+                body: `**Traditional Church (Elephant):** High cost, slow reproduction, requires professional leadership. Good for stability but cannot mathematically keep up with population growth.
+
+**Movement (Rabbit):** Low cost, rapid multiplication, led by ordinary believers. Designed for exponential growth and resilience against persecution.`
             },
             {
-                title: "The 7 Key Questions",
-                body: `1. What are you thankful for?
-2. What is stressing you out?
-3. Who can help read today's passage?
-**4. What does this passage say about God?**
-**5. What does this passage say about People/Humanity?**
-**6. If this is true, what will you change in your life this week? (Obedience)**
-7. Who do you know who needs to hear this? (Sharing)`
+                title: "Extraction vs. Inclusion",
+                body: `**Extraction Evangelism:** Pulling an individual out of their social network (Oikos) to join a church. This isolates the believer and inoculates their family against the Gospel.
+
+**Inclusion (Fishing with a Net):** Reaching the entire family or social circle through a "Person of Peace." The believer remains inside their community to act as "yeast".`
+            },
+            {
+                title: "Obedience vs. Knowledge",
+                body: `**The Shift:** Moving from "teaching them to know all things" to "teaching them to obey all things" (Matt 28:20). Knowledge without obedience is "spiritual fat".
+
+**The Standard:** Maturity is measured by obedience and reproduction, not by how much Bible knowledge one has accumulated.`
             }
         ]
     },
     {
         id: 3,
-        title: "Finding the Person of Peace",
-        level: "Intermediate",
-        duration: "30 mins",
-        description: "Don't knock on every door. Find the person God has already prepared to receive the gospel.",
+        title: "The Strategy (The 4 Fields)",
+        level: "Advanced",
+        duration: "90 mins",
+        description: "The practical 'How-To' of the movement, from entry to church formation.",
         content: [
             {
-                title: "Who is a Person of Peace?",
-                body: `Based on Luke 10:1-11, a Person of Peace is someone who:
-- **Welcomes** you.
-- **Listens** to your message.
-- **Serves** you (opens their home/network).
-- **Influences** others (they are a gateway to a community).`
+                title: "Field 1: Entry (Access)",
+                body: `**Compassion Ministry:** Using healthcare, agriculture, or business to gain access to a community, but always linking it to finding spiritual openness.
+
+**Person of Peace (POP):** Based on Luke 10. A POP is someone who is Open, Hungry, and Sharing. If you find them, you stay; if not, you move on.`
             },
             {
-                title: "How to Find Them",
-                body: `Use a filter question or spiritual conversation starter:
-"I am praying for people in this neighborhood. Is there anything I can pray for you about?"
-If they respond with spiritual openness, they might be your Person of Peace.`
+                title: "Field 2: Gospel (Sowing)",
+                body: `**15-Second Testimony:** A simple tool to share: "There was me (before Christ), Then Jesus (how I met Him), There is me now (after Christ)".
+
+**Creation to Christ (C2C):** A storytelling method that covers the biblical narrative from Creation to the Resurrection to give context to the Gospel.`
+            },
+            {
+                title: "Field 3: Discipleship (Growing)",
+                body: `**Discovery Bible Study (DBS):** The engine of the movement. A group reads a passage and asks simple questions to discover God's truth directly from the text.
+
+**The 3-Column Method:**
+1. Scripture: Write it out word-for-word.
+2. My Words: Rewrite it in your own words (internalization).
+3. I Will: Write a specific "I Will" obedience statement and a "Who I Will Tell" sharing statement.`
+            },
+            {
+                title: "Field 4: Church Formation (Harvesting)",
+                body: `**Church Circle:** A diagram used to identify when a group has become a church (practicing baptism, communion, giving, leadership, etc.).
+
+**The "Ecclesial Minimum":** Defining church simply (Where 2 or 3 are gathered) to allow for rapid reproduction in homes.`
+            }
+        ]
+    },
+    {
+        id: 4,
+        title: "Leadership & Sustainability",
+        level: "Advanced",
+        duration: "60 mins",
+        description: "How to sustain the movement through generations and develop leaders.",
+        content: [
+            {
+                title: "The MAWL Cycle",
+                body: `**Model:** The trainer demonstrates the skill.
+**Assist:** The trainer helps the new leader do it.
+**Watch:** The trainer watches the new leader do it.
+**Launch:** The new leader leaves to train others.`
+            },
+            {
+                title: "Generational Growth (G4)",
+                body: `**The Goal:** A movement is not sustained until it reaches the 4th generation of replication (2 Timothy 2:2).
+
+**Tracking:** Using "GenMapper" tools to visualize the streams of churches and identify where reproduction has stopped.`
+            },
+            {
+                title: "The 3/3rds Meeting Format",
+                body: `**Look Back:** Care, Worship, and Accountability ("Did you obey? Did you share?").
+**Look Up:** New Lesson/Scripture (DBS).
+**Look Forward:** Practice and Goal Setting ("Who will you tell this week?").`
             }
         ]
     }
@@ -72,18 +119,23 @@ If they respond with spiritual openness, they might be your Person of Peace.`
 
 export const resourcesList = [
     {
-        category: "Guides & Manuals",
+        category: "Essential Reading",
         items: [
-            { type: 'pdf', title: "J-DMM Field Guide 2024", description: "Complete manual for field workers." },
-            { type: 'pdf', title: "DBS Bookmark", description: "Printable bookmark with the 7 Questions." },
-            { type: 'pdf', title: "Luke 10 Audit", description: "Checklist for identifying Persons of Peace." },
+            { type: 'doc', title: "Contagious Disciple Making", description: "David & Paul Watson" },
+            { type: 'doc', title: "Miraculous Movements", description: "Jerry Trousdale" },
+            { type: 'doc', title: "The Kingdom Unleashed", description: "Trousdale & Sunshine" },
+            { type: 'doc', title: "24:14 – A Testimony to All Peoples", description: "Coles & Parks" },
+            { type: 'doc', title: "T4T: A Discipleship Re-Revolution", description: "Smith & Kai" },
         ]
     },
     {
-        category: "Scripture Lists",
+        category: "Tools & Organizations",
         items: [
-            { type: 'doc', title: "Creation to Christ (C2C)", description: "26 Stories from Genesis to Jesus." },
-            { type: 'doc', title: "Commands of Christ", description: "The foundational obedience lessons." },
+            { type: 'pdf', title: "Mission Frontiers Magazine", description: "Archives & Articles" },
+            { type: 'doc', title: "New Generations / DMM Resources", description: "Training material" },
+            { type: 'video', title: "Zúme Training", description: "Online Vision & Training" },
+            { type: 'doc', title: "Waha Disciple Making", description: "App & Resources" },
+            { type: 'doc', title: "NoPlaceLeft Coalition", description: "Tools and Strategy" },
         ]
     }
 ];
