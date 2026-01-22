@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DMM Training Platform</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <script>
+    window.addEventListener('error', function (event) {
+      const errorContainer = document.getElementById('root') || document.body;
+      errorContainer.innerHTML = `
+          <div style="padding: 24px; font-family: sans-serif; color: #ef4444;">
+            <h1 style="font-size: 24px; font-weight: bold; margin-bottom: 16px;">Application Error</h1>
+            <p style="margin-bottom: 8px;"><strong>Message:</strong> ${event.message}</p>
+            <p style="margin-bottom: 8px;"><strong>File:</strong> ${event.filename}</p>
+            <p><strong>Line:</strong> ${event.lineno}:${event.colno}</p>
+          </div>
+        ` + errorContainer.innerHTML;
+    });
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
